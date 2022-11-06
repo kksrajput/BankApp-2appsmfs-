@@ -5,16 +5,16 @@ using System.Text;
 namespace BankLibrary
 {
     public class Bank
-    {
-
-        public string BankName { get; set; }
-        public string BankId { get; set; }
-        public string BankAddress { get; set; }
-        public string BankZip { get; set; }
+    {   
         private string BankCity { get; set; }
         public string BankState { get; set; }
         public string _email;
         public string Email
+        public string BankName { get; set; }
+        public string BankId { get; set; }
+        public string BankAddress { get; set; }
+        public string BankZip { get; set; }
+     
         {
             get
             {
