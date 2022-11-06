@@ -21,11 +21,13 @@ namespace BankFormsApp
         private void btntest_Click(object sender, EventArgs e)
         {
             var testBank = new Bank();
-            testBank.BankId = BankId.Text;
-            testBank.BankName = BankName.Text;
+           
             testBank.BankState = BankState.Text;
             testBank.BankAddress = BankAddress.Text;
             testBank.BankZip = BankZip.Text;
+            testBank.BankId = BankId.Text;
+            testBank.BankName = BankName.Text;
+            
             try { 
             testBank.Email = BankEmail.Text;
                }
